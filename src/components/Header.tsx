@@ -43,6 +43,13 @@ export default function Header() {
               About
             </a>
             <a 
+              href="#experience" 
+              onClick={(e) => handleNavClick(e, '#experience')}
+              className="hover:text-white transition-colors duration-300"
+            >
+              Experience
+            </a>
+            <a 
               href="#projects" 
               onClick={(e) => handleNavClick(e, '#projects')}
               className="hover:text-white transition-colors duration-300"
@@ -84,6 +91,13 @@ export default function Header() {
               className="text-slate-300 hover:text-white transition-colors duration-300"
             >
               About
+            </a>
+            <a 
+              href="#experience" 
+              onClick={(e) => handleNavClick(e, '#experience')}
+              className="text-slate-300 hover:text-white transition-colors duration-300"
+            >
+              Experience
             </a>
             <a 
               href="#projects" 
