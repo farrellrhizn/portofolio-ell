@@ -10,26 +10,26 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    year: '2023 - Present',
-    title: 'Full Stack Developer',
-    company: 'Tech Company',
+    year: 'Aug 2024 - Des 2024',
+    title: 'Web Developer',
+    company: 'PT. Otak Kanan',
     description: 'Building scalable web applications using modern technologies. Implemented features that improved user engagement by 40%.',
-    technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL']
+    technologies: ['React', 'Laravel', 'JavaScript', 'Tailwind CSS', 'PHP', 'MySQL']
   },
   {
-    year: '2022 - 2023',
-    title: 'Frontend Developer',
-    company: 'Digital Agency',
-    description: 'Developed responsive web interfaces and collaborated with design team to create pixel-perfect UIs.',
-    technologies: ['React', 'Tailwind CSS', 'JavaScript']
+    year: 'Feb 2024 - Jun 2024',
+    title: 'Study Independent',
+    company: 'RevoU',
+    description: 'Developed responsive web interfaces and collaborated with design team to create Dashboard Pizza Place Sales from data analytics.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Google Cloud Platform', 'Figma', 'LookerStudio']
   },
-  {
-    year: '2021 - 2022',
-    title: 'Junior Developer',
-    company: 'Startup Inc',
-    description: 'Started career building web applications and learning best practices in software development.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'PHP']
-  }
+  // {
+  //   year: '2021 - 2025',
+  //   title: 'Junior Developer',
+  //   company: 'Startup Inc',
+  //   description: 'Started career building web applications and learning best practices in software development.',
+  //   technologies: ['HTML', 'CSS', 'JavaScript', 'PHP']
+  // }
 ]
 
 export default function Experience() {
