@@ -79,14 +79,12 @@ body {
 
 /* 3D tilt card base */
 .tilt-card {
-  transform-style: preserve-3d;
   transition: transform 600ms var(--ease-spring), box-shadow 400ms ease;
   will-change: transform;
-  perspective: 1200px;
 }
 
 .tilt-card:hover {
-  transform: translateY(-4px) rotateX(4deg) rotateY(-6deg) scale(1.02);
+  transform: translateY(-4px) scale(1.02);
 }
 
 /* Card glow */

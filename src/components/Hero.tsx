@@ -27,8 +27,8 @@ export default function Hero() {
               Farrell Abrar Rhiznanda
             </h2>
             <p className="mt-6 max-w-3xl mx-auto text-slate-300 leading-relaxed text-lg">
-              I'm a front-end developer who builds performant and accessible web experiences using
-              React, TypeScript and Tailwind CSS. I focus on pixel-perfect UI and delightful interactions.
+              I'm a web developer who builds performant and accessible web experiences using
+              modern technologies. I focus on creating clean, responsive interfaces and delightful user interactions.
             </p>
 
             <div className="mt-8 flex justify-center gap-4 flex-wrap">
