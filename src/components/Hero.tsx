@@ -1,4 +1,6 @@
 import CardWithCursorGlow from './CardWithCursorGlow'
+import Lottie from 'lottie-react'
+import waveAnimation from '../assets/animation/WaveLoop.json'
 
 export default function Hero() {
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
@@ -18,8 +20,17 @@ export default function Hero() {
   }
 
   return (
-    <div className="h-screen flex items-center justify-center px-4">
-      <div className="text-center relative w-full">
+    <div className="h-screen flex items-center justify-center px-4 relative">
+      {/* Wave Animation Background */}
+      <div className="absolute inset-0 overflow-hidden opacity-20 pointer-events-none">
+        <Lottie 
+          animationData={waveAnimation} 
+          loop={true}
+          className="w-full h-full scale-150"
+        />
+      </div>
+
+      <div className="text-center relative w-full z-10">
         <CardWithCursorGlow className="inline-block w-full max-w-4xl">
           <div className="tilt-card relative bg-card-900/60 rounded-2xl p-12 md:p-16 shadow-glow-purple card-glow card-bottom-glow backdrop-blur-sm border border-slate-800/20 hover:border-brand-purple/30 transition-all duration-500">
 
