@@ -2,8 +2,10 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Experience from '../components/Experience'
+import Certificates from '../components/Certificates'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
+import Playlist from '../components/Playlist'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
@@ -29,12 +31,20 @@ export default function Home() {
           <Experience />
         </section>
 
+        <section id="certificates" className="pt-20 pb-20">
+          <Certificates />
+        </section>
+
         <section id="projects" className="pt-20 pb-20">
           <Projects />
         </section>
 
         <section id="skills" className="pt-20 pb-20">
           <Skills />
+        </section>
+
+        <section id="playlist" className="pt-20 pb-20">
+          <Playlist />
         </section>
 
         <section id="contact" className="pt-20 pb-20">
