@@ -1,6 +1,9 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
 import projects from '../data/projects'
 import CardWithCursorGlow from '../components/CardWithCursorGlow'
+import academicyAdmImg from '../assets/img/AcademicyAdm.jpg'
+import academicyDsnImg from '../assets/img/AcademicyDsn.jpg'
+import ayulaDashboardImg from '../assets/img/AyulaDashboard.jpg'
 
 export default function ProjectDetail() {
   const { id } = useParams<{ id: string }>()
@@ -101,8 +104,8 @@ export default function ProjectDetail() {
                 <div className="mb-8">
                   <h3 className="text-xl font-semibold text-white mb-4">Screenshots</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <img src="/src/assets/img/AcademicyAdm.jpg" alt="Academicy Admin" className="rounded-lg border border-slate-800/40" />
-                    <img src="/src/assets/img/AcademicyDsn.jpg" alt="Academicy Lecturer" className="rounded-lg border border-slate-800/40" />
+                    <img src={academicyAdmImg} alt="Academicy Admin" className="rounded-lg border border-slate-800/40" />
+                    <img src={academicyDsnImg} alt="Academicy Lecturer" className="rounded-lg border border-slate-800/40" />
                   </div>
                 </div>
               )}
@@ -111,7 +114,7 @@ export default function ProjectDetail() {
                 <div className="mb-8">
                   <h3 className="text-xl font-semibold text-white mb-4">Screenshots</h3>
                   <div className="grid grid-cols-1 gap-4">
-                    <img src="/src/assets/img/AyulaDashboard.jpg" alt="AyulaPOS Dashboard" className="rounded-lg border border-slate-800/40" />
+                    <img src={ayulaDashboardImg} alt="AyulaPOS Dashboard" className="rounded-lg border border-slate-800/40" />
                   </div>
                 </div>
               )}
